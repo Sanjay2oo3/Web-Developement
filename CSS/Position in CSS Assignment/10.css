@@ -1,0 +1,35 @@
+body{
+    background-color:rgb(222, 246, 255);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.webpage{
+    position: relative;
+    opacity: 0.3;
+}
+.pop-up{
+background-color:white ;
+position: absolute;
+top: 8px;
+left: 400px;
+width: 700px;
+height: 480px;
+padding: 15px;
+}
+.heading{
+    text-align: center;
+    padding: 10px;
+}
+.termscondition{
+    height: 290px;
+    overflow: scroll;
+}
+#bt{
+    display: block;
+    background-color:rgb(91, 91, 252);
+    color: white;
+    width: 90px;
+    height: 30px;
+    margin-top: 10px;
+    font-size:small;
+    border-radius: 5px;
+}

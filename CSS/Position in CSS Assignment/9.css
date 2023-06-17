@@ -1,0 +1,32 @@
+.dropdown{
+    background-color: lightcoral;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    position: relative;
+    left: 10px;
+    display: inline-block;
+}
+.dropdown-option{
+    display: none;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    width: 200px;
+    height: 140px;
+    position: absolute;
+    overflow-y: scroll;
+    top: 35px;
+}
+.dropdown:hover .dropdown-option {
+    display: block;
+}
+
+.option{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #f1f1f1;
+  }

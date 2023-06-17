@@ -1,0 +1,37 @@
+body{
+    background-color: #393838;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande","Lucida Sans", Arial, sans-serif;
+}
+.main{
+    text-align: center;
+}
+.course-price{
+background-color: #f43d3d;
+width: 1100px;
+height: 60px;
+text-align: center;
+margin-left: 270px;
+padding-top: 1px;
+position: sticky;
+top: 0;
+}
+.heading{
+    color: rgb(255, 119, 0);
+    font-size: x-large;
+}
+img{
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+}
+.description{
+padding-left: 100px;
+padding-right: 100px;
+color: white;
+font-weight: lighter;
+}
+.heading-coursedetail{
+    padding-left: 100px;
+    color: rgb(255, 119, 0);
+    font-size: x-large;
+}

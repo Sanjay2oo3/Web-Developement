@@ -1,0 +1,28 @@
+body{
+    margin-right: 1310px;
+}
+.main-Section{
+    width: 400px;
+    height: 800px;
+    border: 1px solid black;
+}
+div{
+    text-align: center;
+}
+img{
+    width: 180px;
+    padding-top: 10px;
+}
+.Section-1{
+    float: left;
+    color: blue;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+.Section-2{
+    float: right;
+    padding-right: 10px;
+}
+.spacing-extra{
+   margin-top: 55px;
+}

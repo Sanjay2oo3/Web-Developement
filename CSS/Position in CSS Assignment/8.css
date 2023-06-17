@@ -1,0 +1,48 @@
+body{
+    background-color:rgb(222, 246, 255);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.webpage{
+    position: relative;
+    opacity: 0.3;
+}
+.pop-up{
+background-color:white ;
+position: absolute;
+top: 8px;
+left: 400px;
+width: 700px;
+height: 480px;
+padding: 15px;
+}
+.heading{
+    text-align: center;
+    padding: 10px;
+}
+.input-field{
+    padding: 20px;
+    width: 655px;
+    border: 0px;
+    border-bottom: solid 1px black;
+}
+.emm-field{
+    padding: 20px;
+    width:305px;
+    border: 0px;
+    border-bottom: solid 1px black;
+}
+#ms{
+    padding: 20px;
+    width:655px;
+    height: 150px;
+    border: 0px;
+    border-bottom: solid 1px black;
+}
+#bt{
+    background-color:rgb(91, 91, 252);
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
