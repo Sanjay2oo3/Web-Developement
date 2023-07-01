@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(224, 224, 248);
+    margin: 0px;
+    padding: 0px;
+}
+.container-cp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.header{
+    text-align: center;
+}
+.main-heading{
+    color: #5050fd;
+    margin-bottom: 0px;
+}
+.description{
+    font-size: small;
+    margin-bottom:100px;
+}
+.subcontainer{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.subcontainer>img{
+    width: 300px;
+    height: 200px;
+}
+.sub-heading{
+    width: 300px;
+    height: 40px;
+    color: #5050fd;
+}
+.mentor{
+    font-size:medium;
+}

@@ -1,0 +1,19 @@
+.alert{
+    background-color: rgb(255, 214, 214);
+    width: 1450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    position: fixed;
+    top: 0px;
+}
+p{
+    display: inline;
+    color: red;
+    height: 10px;
+}
+span{
+    color: red;
+}

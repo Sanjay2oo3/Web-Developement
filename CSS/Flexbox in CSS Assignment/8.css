@@ -1,0 +1,20 @@
+body{
+    background-color:rgb(87, 87, 87);
+}
+.avtar{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic-2{
+    height: 200px;
+}
+img{
+    background-color: rgb(0, 0, 0);
+    width: 200px;
+    border: 8px solid white;
+    border-radius: 120px;
+    position: relative;
+    margin-left: -50px;
+}

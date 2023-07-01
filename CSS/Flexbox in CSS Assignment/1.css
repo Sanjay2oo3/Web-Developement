@@ -1,0 +1,13 @@
+.photocontainer{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 40px; 
+}
+
+.imggallery{
+    width: 350px;
+    height: 250px;
+    border: 5px solid black;
+}
