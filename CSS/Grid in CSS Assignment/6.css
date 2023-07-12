@@ -1,0 +1,66 @@
+body{
+    margin: 20px;
+    padding: 0px;
+    box-sizing:border-box;
+    border: 2px solid black;
+}
+
+h1{
+    text-align: center;
+}
+
+.TT{
+border: 1px solid black;
+display: grid;
+grid-template-columns: repeat(8, 1fr);
+padding: 10px;
+background-color: rgb(99, 99, 255);
+}
+
+.font-bold{
+font-weight: bold;
+
+}
+.color-1{
+    border: 1px dotted black;
+    background-color: rgb(255, 83, 83);
+    padding: 25px;
+    text-align: center;
+}
+.color-2{
+    border: 1px dotted black;
+    background-color: rgb(132, 83, 255);
+    padding: 25px;
+    text-align: center;
+}
+.color-3{
+    border: 1px dotted black;
+    background-color: rgb(0, 255, 225);
+    padding: 25px;
+    text-align: center;
+}
+.color-4{
+    border: 1px dotted black;
+    background-color: rgb(213, 213, 213);
+    padding: 25px;
+    text-align: center;
+}
+.color-5{
+    background-color: rgb(255, 190, 70);
+    padding: 25px;
+    text-align: center;
+}
+.color-6{
+    border: 1px dotted black;
+    background-color: #22ba00ae;
+    padding: 25px;
+    text-align: center;
+}
+.col-span-2-start{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.col-span-2-end{
+grid-column-start: 7;
+grid-column-end: 9;
+}

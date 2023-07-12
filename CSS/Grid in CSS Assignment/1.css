@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: 3fr 1.5fr 1fr;
+    justify-content: center;
+    border: 2px solid black;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.main-content{
+  align-self: center;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+h1{
+    margin-bottom: 30px;
+}
+p{
+    color: rgb(98, 98, 98);
+    margin-bottom: 50px;
+}
+button{
+    width: 180px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+.img-content>img{
+    width: 459px;
+}
+
+.right-side{
+    background-color: yellow;
+}
