@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 1400px;
+    height: 800px;
+    border: 2px solid black;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+img{
+    width: 400px;
+    border: 2px solid black;
+    filter: blur(10px);
+}
+img:hover{
+    cursor: pointer;
+    filter: blur(0px);
+}

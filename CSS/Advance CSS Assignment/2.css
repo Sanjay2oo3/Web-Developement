@@ -1,0 +1,9 @@
+.main-container{
+    height: 120px;
+    background-image: linear-gradient(#dfbafd, #d370fd);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 20px;
+    color: #ffffff;
+}

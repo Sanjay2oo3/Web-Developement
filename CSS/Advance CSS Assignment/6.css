@@ -1,0 +1,17 @@
+body{
+    width: 600px;
+    height: 400px;
+    box-sizing: border-box;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img{
+width: 500px;
+height: 300px;
+}
+img:hover{
+    filter: grayscale(2);
+}
