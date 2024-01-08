@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+</head>
+<body>
+    <input type="search" placeholder="Search for items" id="seachElement">
+        <h3>Results:</h3>
+        <ul id="language">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Tailwind CSS</li>
+            <li>Github</li>
+            <li>Javascript</li>
+        </ul>
+    <script>
+            const searchelement = document.getElementById('seachElement') 
+            const arr = document.getElementById('language').getElementsByTagName('li')
+
+            searchelement.addEventListener('input', function s(){
+
+                const inputValue = searchelement.value.toLowerCase();
+
+                for(let i=0; i<arr.length; i++){
+                    const arrValue = arr[i].innerText.toLowerCase();
+                if(arrValue.includes(inputValue)){
+                    arr[i].style.display = 'block';
+                }else
+                {
+                    arr[i].style.display = 'none';
+                }
+            }
+            })
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+    <h1>Sign Up Form</h1>
+
+    <div>
+        <div>
+            <label for="fullname">Name:</label>
+            <input type="text" id="fullname" placeholder="( Minimum 3 characters)">
+        </div>
+    
+        <div>
+            <label for="emailid">Email:</label>
+            <input type="email" id="emailid" placeholder="Enter Your Email">
+        </div>
+    
+        <div>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" placeholder="( Minimum 8 characters)">    
+        </div>
+    
+        <div>
+            <button id="sbmt">Submit</button>
+        </div>
+    </div>
+
+    <script>
+        const name = document.getElementById('fullname')
+        const password = document.getElementById('pass')
+        const submit = document.getElementById('sbmt')
+
+        submit.addEventListener('click', function validate(){
+
+            if(name.value.length<3 || password.value.length<8){
+                alert('Form Validation Failed !!')
+            }else
+            {
+                alert('Form Validation Successfull !!')
+            }
+        })
+
+    </script>
+
+    
+</body>
+</html>

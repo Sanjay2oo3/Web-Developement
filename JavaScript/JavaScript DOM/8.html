@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background with time</title>
+</head>
+<style>
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    #time{
+        color: rgb(0, 0, 0);
+        border-radius: 2px solid white;
+        font-size: 40px;
+    }
+</style>
+<body>
+    <span id="time"></span>
+
+    <script>
+
+        function hextimebackgound(){
+
+        const ths = new Date()
+        let h = ths.getHours();
+        let m = ths.getMinutes();
+        let s = ths.getSeconds();
+
+        if(h<=9){
+            h= "0"+h; 
+        }
+
+        if(m<=9){
+            m= "0"+m;
+        }
+
+        if(s<=9){
+            s = "0"+s;
+        }
+
+        let hexcode = '#';
+        hexcode = hexcode+h+m+s;
+
+        let hexdisplay = h + " : " + m + " : " + s ;
+      
+        const timef = document.getElementById('time');
+        timef.innerText =  hexdisplay;
+
+        document.body.style.backgroundColor = hexcode;
+
+        }
+
+        setInterval(hextimebackgound,1000);
+
+    </script>
+</body>
+</html>

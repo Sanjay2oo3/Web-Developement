@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+</head>
+<body>
+    <h1>Counter</h1>
+    <button id="add">+</button>
+    <span id="count"></span>
+    <button id="sub">-</button>
+
+    <script>
+        const addition = document.getElementById('add');
+        const subtract = document.getElementById('sub');
+        const counter = document.getElementById('count');
+
+        let value=0;
+        counter.innerHTML=value;
+
+
+            addition.addEventListener('click', function sum (){
+            value+=1;
+            counter.innerHTML=value;
+       })
+
+            subtract.addEventListener('click', function minus (){
+            value-=1;
+            if(value<0){
+                alert("Counter is going beyond 0")
+            }else
+            {
+                counter.innerHTML=value;
+            }
+       })
+
+    </script>
+
+</body>
+</html>

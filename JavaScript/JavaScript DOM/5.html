@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Toggle</title>
+</head>
+
+<style>
+    .hideimg{
+        display: none;
+    }
+</style>
+<body>
+
+    <h1 id="txt">Your Image is visible</h1>
+    <button id="sbmt">Toggle Image</button>
+    <div>
+        <img src="./assest/PWSkill.jpeg" alt="img" id="image">
+    </div>
+
+    <script>
+        const msg = document.getElementById('txt')
+        const submit = document.getElementById('sbmt');
+        let ishidden=false;
+        submit.addEventListener('click', function t(){
+            ishidden=!ishidden
+            document.getElementById('image').classList.toggle('hideimg', ishidden)
+            msg.innerText= ishidden ? "Your image is hidden" : "Your image is visible";
+        })
+    </script>
+</body>
+</html>

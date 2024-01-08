@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Logout</title>
+</head>
+<body>
+    <button id="login">Login</button>
+    <button id="logout">Logout</button>
+    <p id="msg"></p>
+
+
+    <script>
+        const In = document.getElementById("login")
+        const Out = document.getElementById("logout")
+        const display = document.getElementById("msg")
+
+        updateAuthenticationStatus();
+
+        In.addEventListener('click',function() {
+             localStorage.setItem("authenticationStatus", "User is Logged In");
+             updateAuthenticationStatus();
+        })
+
+        Out.addEventListener('click' , function (){
+            display.innerText = localStorage.removeItem("authenticationStatus");
+            updateAuthenticationStatus();
+
+        })
+
+
+        function updateAuthenticationStatus(){
+            const status = localStorage.getItem("authenticationStatus")
+            display.innerText = status || "User Has Not Logged In";
+        }
+
+    </script>
+</body>
+</html>

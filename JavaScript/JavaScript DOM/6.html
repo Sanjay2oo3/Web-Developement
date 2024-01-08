@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+</head>
+<body>
+   <div id="main"></div> 
+
+   <script>
+    const container = document.getElementById('main')
+    const newLabel = document.createElement('label');
+    const newContent = document.createTextNode('Which is favourite Programming Language:')
+
+    newLabel.appendChild(newContent)
+    container.appendChild(newLabel)
+
+    const Language = ['Javascript', 'Python', 'C++', 'Java'];
+
+    const selectl = document.createElement('select')
+
+    for(let i=0; i<Language.length; i++){
+        const optionl = document.createElement('option')
+        const optioncontent = document.createTextNode(Language[i])
+        optionl.appendChild(optioncontent)
+        selectl.appendChild(optionl)
+    }
+    
+    container.appendChild(selectl)
+   </script>
+</body>
+</html>
