@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#root{
+    border: 1px solid black;
+    padding: 40px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputfield{
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.signbtn{
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    background-color: #00aaff;
+    cursor: pointer;
+}
